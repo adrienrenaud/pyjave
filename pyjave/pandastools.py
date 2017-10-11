@@ -2,7 +2,10 @@ from . import plotlytools
 import pandas as pd
 import plotly.offline as py
 
-py.init_notebook_mode(connected=True)
+try:
+    py.init_notebook_mode(connected=True)
+except:
+    pass
 
 def _jhist(self, bins=None, range=None):
     data = self.values

@@ -10,4 +10,5 @@ setup(
   download_url = 'https://github.com/adrienrenaud/pyjave/archive/0.1.tar.gz', # I'll explain this in a second
   keywords = ['pandas', 'plotly'], # arbitrary keywords
   classifiers = [],
+  install_requires = ['pandas', 'plotly>=2.0.0', 'scipy>=0.19.1'],
 )

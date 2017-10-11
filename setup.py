@@ -7,7 +7,7 @@ setup(
   author = 'Adrien Renaud',
   author_email = 'adrien.renaud@gmail.com',
   url = 'https://github.com/adrienrenaud/pyjave', # use the URL to the github repo
-  download_url = 'https://github.com/peterldowns/mypackage/archive/0.1.tar.gz', # I'll explain this in a second
+  download_url = 'https://github.com/adrienrenaud/pyjave/archive/0.1.tar.gz', # I'll explain this in a second
   keywords = ['pandas', 'plotly'], # arbitrary keywords
   classifiers = [],
 )

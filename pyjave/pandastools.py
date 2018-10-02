@@ -13,7 +13,7 @@ def _jhist(self, bins=None, range=None):
     fig = plotlytools.histo_w_error(data, bins, range)
     return py.iplot(fig)
 
-def _printnb(self, name='DataFrame', n=2):
+def _printnb(self, name="DataFrame", n=2):
     print(f'\n::: {name}')
     display(self.head(n))
     print(f'Shape: {self.shape}')
